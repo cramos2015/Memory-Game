@@ -15,10 +15,8 @@ $(document).ready(function(){
     }
     else{
       var second_click = $(this).find("p").html();
-      console.log("second_click " + second_click + " first_click " + first_click)
-      if(first_click===second_click){ 
-        console.log("hey");// i was just trying to test something to make sure it knows when the second click happens
-     		thecard.css("background-color", "blue")}
+      if(first_click===second_click){ // If first click equals second click, then everything in the function happens. 
+     		thecard.css("opacity", "0")}// I was trying to make the cards flip over again. 
     click_counter=0;// sets the clicks back to zero 
 
     }
