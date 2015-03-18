@@ -9,7 +9,7 @@ $(document).ready(function(){
   $(".card").click(function(){
     thecard = $(this).find("p");
     thecard.css("opacity", "1");  
-    if(click_counter==0){// lets you know what clcik your in 
+    if(click_counter==0){// lets you know what click your in 
       click_counter = 1;
     	first_click = $(this).find("p").html();
     }
